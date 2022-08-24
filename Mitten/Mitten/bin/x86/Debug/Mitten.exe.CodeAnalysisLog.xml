@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="C:\Users\Luke XXVIIint\Documents\Visual Studio 2012\Projects\Mitten\Mitten\Mitten\bin\x86\Debug\Mitten.exe">
+   <Modules>
+    <Module Name="mitten.exe">
+     <Namespaces>
+      <Namespace Name="Krypton">
+       <Types>
+        <Type Name="ShadowHullVertex" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InitializeValueTypeStaticFieldsInline" Category="Microsoft.Usage" CheckId="CA2207" Status="Active" Created="2014-06-03 13:13:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="c:\Users\Luke XXVIIint\Documents\Visual Studio 2012\Projects\Mitten\Mitten\Mitten\Krypton" File="ShadowHullVertex.cs" Line="36">Inizializzare tutti i campi statici in 'ShadowHullVertex' quando questi campi sono dichiarati e rimuovere i costruttori statici espliciti.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Krypton.Common">
+       <Types>
+        <Type Name="BoundingRect" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InitializeValueTypeStaticFieldsInline" Category="Microsoft.Usage" CheckId="CA2207" Status="Active" Created="2014-06-03 13:13:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="c:\Users\Luke XXVIIint\Documents\Visual Studio 2012\Projects\Mitten\Mitten\Mitten\Krypton\Common" File="BoundingRect.cs" Line="32">Inizializzare tutti i campi statici in 'BoundingRect' quando questi campi sono dichiarati e rimuovere i costruttori statici espliciti.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Mitten">
+       <Types>
+        <Type Name="Door" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sheet" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2014-06-03 13:13:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Door.sheet' è membro del tipo 'Door', serializzabile, ma è di tipo 'SpriteSheet[]', non serializzabile. Aggiungere NonSerializedAttribute a 'Door.sheet'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GameController" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2014-06-03 13:13:59Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implementare IDisposable in 'GameController' poiché crea membri dei tipi IDisposable seguenti: 'DirectInput', 'Joystick'. Se 'GameController' è stato distribuito in precedenza, l'aggiunta di nuovi membri che implementano IDisposable in questo tipo è considerata una modifica di interruzione per i consumer esistenti.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Table" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#status" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2014-06-03 13:13:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Il campo 'Table.status' è membro del tipo 'Table', serializzabile, ma è di tipo 'EntityManager', non serializzabile. Aggiungere NonSerializedAttribute a 'Table.status'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="InitializeValueTypeStaticFieldsInline" Category="Microsoft.Usage" CheckId="CA2207">
+   <Name>Inizializzare i campi statici dei tipi di valore inline</Name>
+   <Description>Non dichiarare costruttori statici espliciti su tipi di valore. L'inizializzazione di dati statici nei costruttori statici espliciti crea un tipo di valore che non viene contrassegnato come 'beforefieldinit' nei metadati. In questo caso, non è certo che il costruttore statico venga sempre chiamato prima dei membri dell'istanza sul tipo di valore.</Description>
+   <Resolution Name="Default">Inizializzare tutti i campi statici in {0} quando questi campi sono dichiarati e rimuovere i costruttori statici espliciti.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182346(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235">
+   <Name>Contrassegnare tutti i campi non serializzabili</Name>
+   <Description>Per tutti i campi non serializzabili deve essere impostato NonSerializedAttribute. I tipi con SerializableAttribute non devono disporre di campi di tipi senza SerializableAttribute, a meno che tali campi siano contrassegnati con NonSerializedAttribute.</Description>
+   <Resolution Name="Default">Il campo {0} è membro del tipo {1}, serializzabile, ma è di tipo {2}, non serializzabile. Aggiungere NonSerializedAttribute a {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182349(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>I tipi proprietari di campi Disposable devono essere Disposable</Name>
+   <Description>I tipi che dichiarano membri Disposable devono implementare l'interfaccia IDisposable. Se il tipo non è proprietario di risorse non gestite, non implementare finalizzatori su di esso.</Description>
+   <Resolution Name="DependsOnFix">Implementare IDisposable in {0} poiché crea membri dei tipi IDisposable seguenti: {1}. Se {0} è stato distribuito in precedenza, l'aggiunta di nuovi membri che implementano IDisposable in questo tipo è considerata una modifica di interruzione per i consumer esistenti.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Attendibilità</String>
+  <String Key="CollapseAll">Comprimi tutto</String>
+  <String Key="CheckId">ID controllo</String>
+  <String Key="Error">Errore</String>
+  <String Key="Errors">errori</String>
+  <String Key="ExpandAll">Espandi tutto</String>
+  <String Key="Help">Guida</String>
+  <String Key="Line">Riga</String>
+  <String Key="Messages">messaggi</String>
+  <String Key="LocationNotStoredInPdb">[Percorso non archiviato nel PDB]</String>
+  <String Key="Project">Progetto</String>
+  <String Key="Resolution">Risoluzione</String>
+  <String Key="Rule">Regola</String>
+  <String Key="RuleFile">File delle regole</String>
+  <String Key="RuleDescription">Descrizione regola</String>
+  <String Key="Source">Origine</String>
+  <String Key="Status">Stato</String>
+  <String Key="Target">Destinazione</String>
+  <String Key="Warning">Avviso</String>
+  <String Key="Warnings">avvisi</String>
+  <String Key="ReportTitle">Report di analisi codice</String>
+ </Localized>
+</FxCopReport>

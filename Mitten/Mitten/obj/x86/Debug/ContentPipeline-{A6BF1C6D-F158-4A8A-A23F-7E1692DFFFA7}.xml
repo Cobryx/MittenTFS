@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Font\oldFont.png</Source>
+      <Name>Font\oldFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Font\oldFont.xnb</Output>
+      <Time>2014-11-26T23:54:45.6341243+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\heart.png</Source>
+      <Name>GUI\heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\GUI\heart.xnb</Output>
+      <Time>2014-06-29T14:57:45.6126266+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\table.png</Source>
+      <Name>Animations\table</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\table.xnb</Output>
+      <Time>2014-11-26T23:54:45.5151175+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\tileset.png</Source>
+      <Name>Tiles\tileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Tiles\tileset.xnb</Output>
+      <Time>2014-07-27T23:39:57.1623595+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\box.bmp</Source>
+      <Name>Animations\box</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\box.xnb</Output>
+      <Time>2014-11-26T23:54:45.3901103+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\door.png</Source>
+      <Name>Animations\door</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\door.xnb</Output>
+      <Time>2014-06-29T14:57:41.0283644+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\zombie1.png</Source>
+      <Name>Animations\zombie1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\zombie1.xnb</Output>
+      <Time>2014-11-26T23:54:45.5921219+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\minimal2.png</Source>
+      <Name>Font\minimal2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Font\minimal2.xnb</Output>
+      <Time>2014-11-26T23:54:45.630124+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\minimal.png</Source>
+      <Name>Font\minimal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Font\minimal.xnb</Output>
+      <Time>2014-11-26T23:54:45.6271239+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\explosion.png</Source>
+      <Name>Animations\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\explosion.xnb</Output>
+      <Time>2014-11-26T23:54:45.402111+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard1.png</Source>
+      <Name>Animations\wizard1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard1.xnb</Output>
+      <Time>2014-11-26T23:54:45.5301183+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\banshee1.png</Source>
+      <Name>Animations\banshee1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\banshee1.xnb</Output>
+      <Time>2014-11-26T23:54:45.3711092+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\torch.png</Source>
+      <Name>Animations\torch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\torch.xnb</Output>
+      <Time>2014-06-29T14:57:43.2564919+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Items\items.png</Source>
+      <Name>Items\items</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Items\items.xnb</Output>
+      <Time>2014-11-26T23:54:45.6551255+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\stairs.png</Source>
+      <Name>Animations\stairs</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\stairs.xnb</Output>
+      <Time>2014-11-26T23:54:45.5031168+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\arial.bmp</Source>
+      <Name>Font\arial</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Font\arial.xnb</Output>
+      <Time>2014-11-26T23:54:45.6241237+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\inventory_case.png</Source>
+      <Name>GUI\inventory_case</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\GUI\inventory_case.xnb</Output>
+      <Time>2014-11-26T23:54:45.6461249+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\inventory_select.png</Source>
+      <Name>GUI\inventory_select</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\GUI\inventory_select.xnb</Output>
+      <Time>2014-11-26T23:54:45.6491251+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\inventory_bg.png</Source>
+      <Name>GUI\inventory_bg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\GUI\inventory_bg.xnb</Output>
+      <Time>2014-11-26T23:54:45.6431248+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Scenography\scenography.png</Source>
+      <Name>Scenography\scenography</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Scenography\scenography.xnb</Output>
+      <Time>2014-07-27T23:39:57.1843607+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\commonsword.png</Source>
+      <Name>Animations\commonsword</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\commonsword.xnb</Output>
+      <Time>2014-11-26T23:54:45.3931105+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\crossbow.png</Source>
+      <Name>Animations\crossbow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\crossbow.xnb</Output>
+      <Time>2014-11-26T23:54:45.3961106+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\magicbolt.png</Source>
+      <Name>Animations\magicbolt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\magicbolt.xnb</Output>
+      <Time>2014-06-29T14:57:42.034422+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\laser.png</Source>
+      <Name>Animations\laser</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\laser.xnb</Output>
+      <Time>2014-11-26T23:54:45.4671147+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\magictrail.png</Source>
+      <Name>Animations\magictrail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\magictrail.xnb</Output>
+      <Time>2014-11-26T23:54:45.472115+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\simplescenography.png</Source>
+      <Name>Animations\simplescenography</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\simplescenography.xnb</Output>
+      <Time>2014-11-26T23:54:45.4911161+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\banshee2.png</Source>
+      <Name>Animations\banshee2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\banshee2.xnb</Output>
+      <Time>2014-11-26T23:54:45.3771096+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\banshee3.png</Source>
+      <Name>Animations\banshee3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\banshee3.xnb</Output>
+      <Time>2014-11-26T23:54:45.3831099+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\human2.png</Source>
+      <Name>Animations\human2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\human2.xnb</Output>
+      <Time>2014-11-26T23:54:45.419112+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\human3.png</Source>
+      <Name>Animations\human3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\human3.xnb</Output>
+      <Time>2014-11-26T23:54:45.4281125+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\human4.png</Source>
+      <Name>Animations\human4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\human4.xnb</Output>
+      <Time>2014-11-26T23:54:45.438113+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\human1.png</Source>
+      <Name>Animations\human1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\human1.xnb</Output>
+      <Time>2014-11-26T23:54:45.4101114+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\spiderbot.png</Source>
+      <Name>Animations\spiderbot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\spiderbot.xnb</Output>
+      <Time>2014-11-26T23:54:45.4971164+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard2.png</Source>
+      <Name>Animations\wizard2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard2.xnb</Output>
+      <Time>2014-11-26T23:54:45.5351186+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard3.png</Source>
+      <Name>Animations\wizard3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard3.xnb</Output>
+      <Time>2014-11-26T23:54:45.5401189+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard4.png</Source>
+      <Name>Animations\wizard4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard4.xnb</Output>
+      <Time>2014-11-26T23:54:45.5451192+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard5.png</Source>
+      <Name>Animations\wizard5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard5.xnb</Output>
+      <Time>2014-11-26T23:54:45.5511195+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard6.png</Source>
+      <Name>Animations\wizard6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard6.xnb</Output>
+      <Time>2014-11-26T23:54:45.5561198+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard7.png</Source>
+      <Name>Animations\wizard7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard7.xnb</Output>
+      <Time>2014-11-26T23:54:45.5611201+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\wizard8.png</Source>
+      <Name>Animations\wizard8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\wizard8.xnb</Output>
+      <Time>2014-11-26T23:54:45.5671204+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\zombie2.png</Source>
+      <Name>Animations\zombie2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\zombie2.xnb</Output>
+      <Time>2014-11-26T23:54:45.5981222+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\zombie3.png</Source>
+      <Name>Animations\zombie3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\zombie3.xnb</Output>
+      <Time>2014-11-26T23:54:45.6031225+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\orb.png</Source>
+      <Name>Animations\orb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\orb.xnb</Output>
+      <Time>2014-11-26T23:54:45.4871159+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\icewall.png</Source>
+      <Name>Animations\icewall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\icewall.xnb</Output>
+      <Time>2014-11-26T23:54:45.4431133+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\arcadepixfont.spritefont</Source>
+      <Name>Font\arcadepixfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Font\arcadepixfont.xnb</Output>
+      <Time>2014-11-26T23:54:45.6151232+01:00</Time>
+    </Item>
+    <Item>
+      <Source>KryptonEffect.fx</Source>
+      <Name>KryptonEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\KryptonEffect.xnb</Output>
+      <Time>2014-11-26T23:54:45.3431076+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Song\environment1.wav</Source>
+      <Name>Song\environment1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Song\environment1.xnb</Output>
+      <Time>2014-06-29T15:23:53.4783034+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Song\environment2.wav</Source>
+      <Name>Song\environment2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Song\environment2.xnb</Output>
+      <Time>2014-06-29T15:23:53.59331+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Song\environment3.wav</Source>
+      <Name>Song\environment3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Song\environment3.xnb</Output>
+      <Time>2014-06-29T15:23:53.6583137+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Song\environment4.wav</Source>
+      <Name>Song\environment4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Song\environment4.xnb</Output>
+      <Time>2014-06-29T15:23:53.7203173+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Altar.png</Source>
+      <Name>Animations\Scenographic\Altar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Altar.xnb</Output>
+      <Time>2014-07-28T00:08:37.235742+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Anvil.png</Source>
+      <Name>Animations\Scenographic\Anvil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Anvil.xnb</Output>
+      <Time>2014-07-28T00:08:42.0290162+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\BigBook.png</Source>
+      <Name>Animations\Scenographic\BigBook</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\BigBook.xnb</Output>
+      <Time>2014-07-28T00:08:44.9901856+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\BronzePipes.png</Source>
+      <Name>Animations\Scenographic\BronzePipes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\BronzePipes.xnb</Output>
+      <Time>2014-07-28T00:08:50.9585269+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\CharredWood.png</Source>
+      <Name>Animations\Scenographic\CharredWood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\CharredWood.xnb</Output>
+      <Time>2014-07-28T00:08:53.302661+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\CopperPipes.png</Source>
+      <Name>Animations\Scenographic\CopperPipes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\CopperPipes.xnb</Output>
+      <Time>2014-07-28T00:09:05.2043417+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Gargoyle.png</Source>
+      <Name>Animations\Scenographic\Gargoyle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Gargoyle.xnb</Output>
+      <Time>2014-07-28T00:09:09.8586079+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Hammer.png</Source>
+      <Name>Animations\Scenographic\Hammer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Hammer.xnb</Output>
+      <Time>2014-11-26T23:54:45.6091228+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Column.png</Source>
+      <Name>Animations\Scenographic\Column</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Column.xnb</Output>
+      <Time>2014-07-28T00:08:55.4597844+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Altardecoration.png</Source>
+      <Name>Animations\Scenographic\Altardecoration</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Altardecoration.xnb</Output>
+      <Time>2014-07-28T00:08:39.5648752+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\ColumnBasement.png</Source>
+      <Name>Animations\Scenographic\ColumnBasement</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\ColumnBasement.xnb</Output>
+      <Time>2014-07-28T00:08:57.9489268+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\ColumnBasement2.png</Source>
+      <Name>Animations\Scenographic\ColumnBasement2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\ColumnBasement2.xnb</Output>
+      <Time>2014-07-28T00:09:00.1710539+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\ColumnBasement3.png</Source>
+      <Name>Animations\Scenographic\ColumnBasement3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\ColumnBasement3.xnb</Output>
+      <Time>2014-07-28T00:09:02.6161937+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Throne2.png</Source>
+      <Name>Animations\Scenographic\Throne2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Throne2.xnb</Output>
+      <Time>2014-07-28T00:09:30.1737699+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\BloodFountain.png</Source>
+      <Name>Animations\Scenographic\BloodFountain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\BloodFountain.xnb</Output>
+      <Time>2014-07-28T00:08:48.2693731+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\Corpse1.png</Source>
+      <Name>Animations\Scenographic\Corpse1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\Corpse1.xnb</Output>
+      <Time>2014-07-27T23:39:56.6053276+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\CorpseStack.png</Source>
+      <Name>Animations\Scenographic\CorpseStack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\CorpseStack.xnb</Output>
+      <Time>2014-07-28T00:09:07.2214571+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\throne1.png</Source>
+      <Name>Animations\Scenographic\throne1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\throne1.xnb</Output>
+      <Time>2014-07-28T00:09:24.3574372+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\head.png</Source>
+      <Name>Animations\Scenographic\head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\head.xnb</Output>
+      <Time>2014-07-27T23:39:56.7053333+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\corpse2.png</Source>
+      <Name>Animations\Scenographic\corpse2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\corpse2.xnb</Output>
+      <Time>2014-07-27T23:39:56.6333292+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\corpse3.png</Source>
+      <Name>Animations\Scenographic\corpse3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\corpse3.xnb</Output>
+      <Time>2014-07-27T23:39:56.6633309+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\manhole1.png</Source>
+      <Name>Animations\Scenographic\manhole1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\manhole1.xnb</Output>
+      <Time>2014-07-27T23:39:57.0713543+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\manhole2.png</Source>
+      <Name>Animations\Scenographic\manhole2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\manhole2.xnb</Output>
+      <Time>2014-07-27T23:39:56.7833378+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\manhole3.png</Source>
+      <Name>Animations\Scenographic\manhole3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\manhole3.xnb</Output>
+      <Time>2014-07-27T23:39:56.99735+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\sleepbag1.png</Source>
+      <Name>Animations\Scenographic\sleepbag1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\sleepbag1.xnb</Output>
+      <Time>2014-07-27T23:39:56.8993444+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\sleepbag2.png</Source>
+      <Name>Animations\Scenographic\sleepbag2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\sleepbag2.xnb</Output>
+      <Time>2014-07-27T23:39:56.9323463+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\pot1.png</Source>
+      <Name>Animations\Scenographic\pot1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\pot1.xnb</Output>
+      <Time>2014-07-27T23:39:56.8323406+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Animations\Scenographic\pot2.png</Source>
+      <Name>Animations\Scenographic\pot2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\Animations\Scenographic\pot2.xnb</Output>
+      <Time>2014-07-27T23:39:56.8553419+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A6BF1C6D-F158-4A8A-A23F-7E1692DFFFA7}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\MittenContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Carlo\Documents\Visual Studio 2012\Projects\MittenTFS\Mitten\Mitten\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-08-12T11:29:19.9456619+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
